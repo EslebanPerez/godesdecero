@@ -2,6 +2,7 @@ package variables
 
 import (
 	"fmt"
+	"strconv"
 	"time"
 )
 
@@ -22,4 +23,9 @@ func RestoVariables() {
 	fmt.Println(Fecha)
 	variable = "alguito"
 	fmt.Println(variable)
+}
+
+func ConviertoTexto(numero int) (bool, string) {
+	texto := strconv.Itoa(numero)
+	return true, texto
 }
