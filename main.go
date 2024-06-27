@@ -13,6 +13,6 @@ func main() {
 	fmt.Println(estado)
 	fmt.Println(texto)
 
-	variables.NewFunction()
+	variables.Circulo()
 
 }

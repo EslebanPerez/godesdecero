@@ -35,3 +35,9 @@ func NewFunction() {
 	mundo, happy := "mundo", "😃"
 	fmt.Println(hola, mundo, happy)
 }
+
+func Circulo() {
+	const PI = 3.1416
+	// PI = 3.15 Las constantes no se pueden reasignar un valor
+	fmt.Println(PI)
+}
