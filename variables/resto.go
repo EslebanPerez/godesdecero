@@ -32,6 +32,6 @@ func ConviertoTexto(numero int) (bool, string) {
 
 func NewFunction() {
 	hola, mundo := "Hola", "🌎"
-	mundo = "mundo"
-	fmt.Println(hola, mundo)
+	mundo, happy := "mundo", "😃"
+	fmt.Println(hola, mundo, happy)
 }
