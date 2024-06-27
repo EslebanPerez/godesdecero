@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// Estos son las declaraciones de las variables
 var Nombre string
 var Estado bool
 var Sueldo float32
@@ -36,8 +37,9 @@ func NewFunction() {
 	fmt.Println(hola, mundo, happy)
 }
 
+// Los comentarios de una linea se utilizan para documentación
 func Circulo() {
+	// PI es una constante que vale 3.14
 	const PI = 3.1416
-	// PI = 3.15 Las constantes no se pueden reasignar un valor
 	fmt.Println(PI)
 }
