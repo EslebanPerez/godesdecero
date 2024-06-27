@@ -29,3 +29,8 @@ func ConviertoTexto(numero int) (bool, string) {
 	texto := strconv.Itoa(numero)
 	return true, texto
 }
+
+func NewFunction() {
+	var hola, mundo string = "Hola", "🌎"
+	fmt.Println(hola + " " + mundo)
+}
